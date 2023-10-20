@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventos</title>
+  <!-- Seu código do cabeçalho aqui -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css" rel="stylesheet" />
+  <style>
+    ul {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    li {
+      background-color: antiquewhite;
+      padding: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <select class="select" id="filtro" onchange="filtrar()">
+    <option value="todos">Todos Eventos</option>
+    <option value="esportivo">Esportivo</option>
+    <option value="cultural">Cultural</option>
+  </select>
+
+  <ul id="eventos">
+
+  </ul>
+
+  <script src="js.js">
+
+
+  </script>
+
+  <!-- Seu código do rodapé aqui -->
+</body>
+
+</html>
