@@ -9,9 +9,10 @@ document.addEventListener("keypress", function (event) {
 });
  document.addEventListener("click" ,function (event){
     var alvo=event.target;
-        if(alvo.nodeName== "LI"){}
-    alvo.remove()
-  
+        if(alvo.nodeName== "LI"){
+               alvo.remove()
+        }
+ 
  })
 
 function add() {
